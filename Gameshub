@@ -1,0 +1,1119 @@
+wait(0.2)
+
+local function callback(text)
+
+    if text == "Yes" then
+
+	print("User said yes")    elseif text == "No" then
+
+	print("User said no")
+
+    end
+
+end
+
+local bindableFunction= Instance.new("BindableFunction")
+
+game.StarterGui:SetCore("SendNotification", {
+
+    Title = "MADE BY: PEPA🔮";
+
+    Text = "lol";
+
+    Duration = "2";
+
+    callbakc = bindableFunction;
+
+    Button1 = "OK";
+
+    
+
+})
+
+wait(0.7)
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Pepa Games Hub🔮", "Ocean")
+
+--main
+
+local Tab = Window:NewTab("  MAIN -")
+
+local Section10 = Tab:NewSection("open/close Hub Key")
+
+Section10:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
+
+	Library:ToggleUI()
+
+end)
+
+local Section = Tab:NewSection("Brookhaven Rp")
+
+Section:NewButton("Ice Hub", "Brook heaven Op", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+
+end)
+
+local Section = Tab:NewSection("random scripts ")
+
+Section:NewButton("Fe Atack (read info)", "use keys:z,x,c,v,b,t,and left alt", function()
+
+-- Methods
+
+local Methods = loadstring(game:HttpGet("https://raw.githubusercontent.com/coolsk8rboy/The-John-Cena-Factory/main/JohnCenasMain.lua"))()
+
+-- Setup
+
+Methods:SetIdleAnimation(7142933331, .1)
+
+Methods:SetWalkAnimation(7142732585, .1)
+
+Methods:SetWalkSpeed(8)
+
+Methods:EnableSprinting(7142895580, .1, 25)
+
+-- Fling
+
+Methods:BodyPartFlingOnTouch("Right Arm")
+
+Methods:BodyPartFlingOnTouch("Left Arm")
+
+Methods:BodyPartFlingOnTouch("Right Leg")
+
+Methods:BodyPartFlingOnTouch("Left Leg")
+
+-- Key Connections
+
+Methods:OnKeyPress("q", function()
+
+    Methods:ApplyVelocityFoward(-5)
+
+    Methods:ApplyVelocityUpward(80)
+
+    Methods:PlayAnimation(7142738887, .1, 5)
+
+end)
+
+Methods:OnKeyPress("e", function()
+
+    Methods:ApplyVelocityFoward(5)
+
+    Methods:ApplyVelocityUpward(80)
+
+    Methods:PlayAnimation(6936454190, .1, 5)
+
+end)
+
+-- Attacks
+
+Methods:NewAttack("Attack1", "z", 7142975235, .1, 3)
+
+Methods:NewAttack("Attack2", "x", 7142973417, .1, 3)
+
+Methods:NewAttack("Attack3", "c", 7142740591, .1, 3)
+
+Methods:NewAttack("Attack4", "v", 7142741890, .1, 3)
+
+Methods:NewAttack("Attack5", "b", 6936458635, .1, 3)
+
+Methods:NewAttack("Attack6", "t", 4837749916, .1, 2)
+
+-- Finishing up
+
+Methods:SetScriptCreator("CROAXER")
+
+Methods:SystemMessage([[Controls:
+
+z - Combo 1
+
+x - Combo 2
+
+c - Combo 3
+
+v - Combo 4
+
+b - Combo 5
+
+e - Front Flip
+
+q - Back Flip
+
+t - Taunt
+
+Left Alt - Sprint
+
+]])
+
+Methods:PlaySound(1842802203, true)
+
+Methods:RunScript()
+
+end)
+
+Section:NewButton("FLY GUI V3 MODDED", "fly", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/3UYg1qqb'))()
+
+end)
+
+Section:NewButton("Nameless animation V3 -Meme", "keybinds: F R T Q -", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/CsKA3L8Z"))()
+
+end)
+
+Section:NewButton("OP - PRISON LIFE SCRIPT", "-when does prison life update? never....", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/VUzUCJGf'))()
+
+end)
+
+Section:NewButton("NUKER MOD GUI da hood", "Mod gui", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/DDXCeVtk'))()
+
+end)
+
+Section:NewButton("KEYBOARD SCRIPT", "Keboard", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/YtdxEz0q'))()
+
+end)
+
+Section:NewButton("Doors script cool", "cool script for doors.... yeaahh", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/wm4eQSUQ'))()
+
+end)
+
+Section:NewButton("Infinite Yield FE", "MY FAVORITE SCRIPT", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/8fUy5TBM'))()
+
+end)
+
+Section:NewButton("OP - PRISON LIFE SCRIPT XtheMasterX", "SUPER OP", function()
+
+loadstring(game: HttpGet('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'))()
+
+end)
+
+local Tab2 = Window:NewTab("- PLAYER -")
+
+local Section2 = Tab2:NewSection("Keyboards / cursor mobile ")
+
+Section2:NewSlider("Speed", "Set you speed", 500, 0, function(s) -- 500 (MaxValue) - 0 (MinValue)
+
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+
+end)
+
+Section2:NewButton("FE - Giant script R15 (read info)", "keep your character's body proportions at maximum", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/2s98PrEE'))()
+
+end)
+
+Section2:NewButton("set Shift lock ", "only for mobile", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/792svEcC'))()
+
+end)
+
+Section2:NewButton("Telekinesis Script (need cursor script)", "a", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/Z33NcECh'))()
+
+end)
+
+local Tab3 = Window:NewTab("R6/R15 Animations")
+
+local Section3 = Tab3:NewSection("R15 ANIMATIONS")
+
+Section3:NewButton("R15 ANIMATIONS GUI + music gui", "R6 is better", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/tSmUTPXD'))()
+
+end)
+
+Section3:NewButton("FE R15 animations (read info)", "use Rthro animation to work", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/mbj17A7p'))()
+
+end)
+
+local Section3 = Tab3:NewSection("R6 ANIMATIONS")
+
+Section3:NewButton("nameless animation V3", "BEST ANIMATION SCRIPT <3", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/CsKA3L8Z'))()
+
+end)
+
+Section3:NewButton("R6 ANIMATIONS GUI", "try nameless v3", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/vbJsvU0L'))()
+
+end)
+
+local PSX = Window:NewTab("PSX")
+
+local PetSimx = PSX:NewSection("PetSimx")
+
+local Tab5 = Window:NewTab("  FLING SCRIPTS  ")
+
+local Section5 = Tab5:NewSection("fling scripts")
+
+Section5:NewButton("FE CONTROLLER FLING (read info) ", "u need a backpack called 8-bit controller backpack", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/XRxfvKmR'))()
+
+end)
+
+Section5:NewButton("FE troll fling gui", "YEET!", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/XRxfvKmR'))()
+
+end)
+
+Section5:NewButton("FE ultimate fling gui", "fling your enemies!", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/r97d7dS0'))()
+
+end)
+
+Section5:NewButton("FE invisible fling (press Z to execute)", "fling your enemies!", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/B9G4qHGy'))()
+
+end)
+
+local Tab6 = Window:NewTab("DA HOOD")
+
+local Section6 = Tab6:NewSection("Da hood scripts ")
+
+Section6:NewButton("Unticled Hood V4.1", "BIGGEST GUI I HAVE EVER SEEN", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/JDeTFWrm'))()
+
+end)
+
+Section6:NewButton("Da hood VORTEX GUI", "this is cool", function()
+
+loadstring(game: HttpGet('https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex'))()
+
+end)
+
+Section6:NewButton("NUKER MOD GUI da hood", "nuker script", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/DDXCeVtk'))()
+
+end)
+
+--Script PSX
+
+PetSimx:NewButton("🙂 Jems Hub script", "PetSimx", function()
+
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
+
+end)
+
+PetSimx:NewButton("🐄 Milk Up Hub script", "PetSimx", function()
+
+    loadstring(game:HttpGet("https://milkup.info/script/PetSimulatorX/"))()
+
+end)
+
+PetSimx:NewButton("🎃 Project WD script", "PetSimx", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Main.lua"))()
+
+end)
+
+PetSimx:NewButton("Pet Simulator X script", "PetSimx", function()
+
+    loadstring(game:HttpGet("https://rawscripts.net/raw/CATS-or-Pet-Simulator-X!-Pasta-v2-6841"))()
+
+end)
+
+PetSimx:NewButton("Catalyst Hub script", "PetSimx", function()
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/destylol/catalyst/itachi/main.lua'))()
+
+end)
+
+local Tab9 = Window:NewTab("EVADE")
+
+local Section9 = Tab9:NewSection("Evade scripts ")
+
+Section9:NewButton("Evade gui", "idk", function()
+
+loadstring(game: HttpGet('https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Evade/main.lua'))()
+
+end)
+
+Section9:NewButton("OP - Evade Gui (need Key)", "cool script but need Key :(", function()
+
+loadstring(game: HttpGet('https://pastebin.com/raw/uBvmEkWB'))()
+
+end)
+
+Section9:NewButton("OP - Evade Script GUI (need join discord server)", "WOW", function()
+
+loadstring(game: HttpGet('https://raw.githubusercontent.com/Robobo2022/script/main/Main.lua'))()
+
+end)
+
+Section9:NewButton("Darkrai-X Evade script", "", function()
+
+loadstring(game: HttpGet('https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Evade'))()
+
+end)
+
+local Tab7 = Window:NewTab("  Fe Scripts  ")
+
+local Section5 = Tab7:NewSection("Fe scripts")
+
+Section5:NewButton("FE Art chat ", "PREFIX YOUR MASSEGA WITH  .", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/omegachadgaming/mongus/main/main.lua", true))()
+
+end)
+
+Section5:NewButton("FE Bring All ", "Use Keys:R,F ", function()
+
+--[[
+
+bad skid
+
+--]]
+
+ 
+
+local L_1_ = true;
+
+local L_2_ = game.Players.LocalPlayer.Character.HumanoidRootPart;
+
+local L_3_ = L_2_.Position - Vector3.new(5, 0, 0)
+
+ 
+
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(L_4_arg1)
+
+	if L_4_arg1 == 'f' then
+
+		L_1_ = not L_1_
+
+	end;
+
+	if L_4_arg1 == 'r' then
+
+		L_2_ = game.Players.LocalPlayer.Character.HumanoidRootPart;
+
+		L_3_ = L_2_.Position - Vector3.new(5, 0, 0)
+
+	end
+
+end)
+
+ 
+
+for L_5_forvar1, L_6_forvar2 in pairs(game.Players:GetPlayers()) do
+
+	if L_6_forvar2 == game.Players.LocalPlayer then
+
+	else
+
+		local L_7_ = coroutine.create(function()
+
+			game:GetService('RunService').RenderStepped:Connect(function()
+
+				local L_8_, L_9_ = pcall(function()
+
+					local L_10_ = L_6_forvar2.Character;
+
+					if L_10_ then
+
+						if L_10_:FindFirstChild("HumanoidRootPart") then
+
+							if L_1_ then
+
+								L_6_forvar2.Backpack:ClearAllChildren()
+
+								for L_11_forvar1, L_12_forvar2 in pairs(L_10_:GetChildren()) do
+
+									if L_12_forvar2:IsA("Tool") then
+
+										L_12_forvar2:Destroy()
+
+									end
+
+								end;
+
+								L_10_.HumanoidRootPart.CFrame = CFrame.new(L_3_)
+
+							end
+
+						end
+
+					end
+
+				end)
+
+				if L_8_ then
+
+				else
+
+					warn("Unnormal error: "..L_9_)
+
+				end
+
+			end)
+
+		end)
+
+		coroutine.resume(L_7_)
+
+	end
+
+end;
+
+ 
+
+game.Players.PlayerAdded:Connect(function(L_13_arg1)   
+
+	if L_13_arg1 == game.Players.LocalPlayer then
+
+	else
+
+		local L_14_ = coroutine.create(function()
+
+			game:GetService('RunService').RenderStepped:Connect(function()
+
+				local L_15_, L_16_ = pcall(function()
+
+					local L_17_ = L_13_arg1.Character;
+
+					if L_17_ then
+
+						if L_17_:FindFirstChild("HumanoidRootPart") then
+
+							if L_1_ then
+
+								L_13_arg1.Backpack:ClearAllChildren()
+
+								for L_18_forvar1, L_19_forvar2 in pairs(L_17_:GetChildren()) do
+
+									if L_19_forvar2:IsA("Tool") then
+
+										L_19_forvar2:Destroy()
+
+									end
+
+								end;
+
+								L_17_.HumanoidRootPart.CFrame = CFrame.new(L_3_)
+
+							end
+
+						end
+
+					end
+
+				end)
+
+				if L_15_ then
+
+				else
+
+					warn("Unnormal error: "..L_16_)
+
+				end
+
+			end)
+
+		end)
+
+		coroutine.resume(L_14_)
+
+	end           
+
+end)
+
+end)
+
+Section5:NewButton("FE R15 To R6 ", "only Use", function()
+
+--reanimate by MyWorld#4430 discord.gg/pYVHtSJmEY
+
+local Vector3_101 = Vector3.new(1, 0, 1)
+
+local netless_Y = Vector3.new(0, 25.1, 0)
+
+local function getNetlessVelocity(realPartVelocity) --change this if you have a better method
+
+    local mag = realPartVelocity.Magnitude
+
+    if (mag > 1) and (mag < 100) then
+
+        local unit = realPartVelocity.Unit
+
+        if (unit.Y > 0.25) or (unit.Y < -0.75) then
+
+            return realPartVelocity * (25.1 / realPartVelocity.Y)
+
+        end
+
+        realPartVelocity = unit * 100
+
+    end
+
+    return (realPartVelocity * Vector3_101) + netless_Y
+
+end
+
+local simradius = "shp" --simulation radius (net bypass) method
+
+--"shp" - sethiddenproperty
+
+--"ssr" - setsimulationradius
+
+--false - disable
+
+local noclipAllParts = false --set it to true if you want noclip
+
+local antiragdoll = true --removes hingeConstraints and ballSocketConstraints from your character
+
+local newanimate = true --disables the animate script and enables after reanimation
+
+local discharscripts = true --disables all localScripts parented to your character before reanimation
+
+local R15toR6 = true --tries to convert your character to r6 if its r15
+
+local hatcollide = false --makes hats cancollide (credit to ShownApe) (works only with reanimate method 0)
+
+local humState16 = true --enables collisions for limbs before the humanoid dies (using hum:ChangeState)
+
+local addtools = false --puts all tools from backpack to character and lets you hold them after reanimation
+
+local hedafterneck = true --disable aligns for head and enable after neck or torso is removed
+
+local loadtime = game:GetService("Players").RespawnTime + 0.5 --anti respawn delay
+
+local method = 3 --reanimation method
+
+--methods:
+
+--0 - breakJoints (takes [loadtime] seconds to laod)
+
+--1 - limbs
+
+--2 - limbs + anti respawn
+
+--3 - limbs + breakJoints after [loadtime] seconds
+
+--4 - remove humanoid + breakJoints
+
+--5 - remove humanoid + limbs
+
+local alignmode = 2 --AlignPosition mode
+
+--modes:
+
+--1 - AlignPosition rigidity enabled true
+
+--2 - 2 AlignPositions rigidity enabled both true and false
+
+--3 - AlignPosition rigidity enabled false
+
+local flingpart = "HumanoidRootPart" --name of the part or the hat used for flinging
+
+--the fling function
+
+--usage: fling(target, duration, velocity)
+
+--target can be set to: basePart, CFrame, Vector3, character model or humanoid (flings at mouse.Hit if argument not provided))
+
+--duration (fling time in seconds) can be set to: a number or a string convertable to the number (0.5s if not provided),
+
+--velocity (fling part rotation velocity) can be set to a vector3 value (Vector3.new(20000, 20000, 20000) if not provided)
+
+local lp = game:GetService("Players").LocalPlayer
+
+local rs = game:GetService("RunService")
+
+local stepped = rs.Stepped
+
+local heartbeat = rs.Heartbeat
+
+local renderstepped = rs.RenderStepped
+
+local sg = game:GetService("StarterGui")
+
+local ws = game:GetService("Workspace")
+
+local cf = CFrame.new
+
+local v3 = Vector3.new
+
+local v3_0 = Vector3.zero
+
+local inf = math.huge
+
+local c = lp.Character
+
+if not (c and c.Parent) then
+
+	return
+
+end
+
+c:GetPropertyChangedSignal("Parent"):Connect(function()
+
+    if not (c and c.Parent) then
+
+	    c = nil
+
+	end
+
+end)
+
+local function gp(parent, name, className)
+
+	if typeof(parent) == "Instance" then
+
+		for i, v in pairs(parent:GetChildren()) do
+
+			if (v.Name == name) and v:IsA(className) then
+
+				return v
+
+			end
+
+		end
+
+	end
+
+	return nil
+
+end
+
+if type(getNetlessVelocity) ~= "function" then
+
+    getNetlessVelocity = nil
+
+end
+
+local function align(Part0, Part1)
+
+	Part0.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0, 0, 0)
+
+	local att0 = Instance.new("Attachment")
+
+	att0.Orientation = v3_0
+
+	att0.Position = v3_0
+
+	att0.Name = "att0_" .. Part0.Name
+
+	local att1 = Instance.new("Attachment")
+
+	att1.Orientation = v3_0
+
+	att1.Position = v3_0
+
+	att1.Name = "att1_" .. Part1.Name
+
+	if (alignmode == 1) or (alignmode == 2) then
+
+		local ape = Instance.new("AlignPosition", att0)
+
+		ape.ApplyAtCenterOfMass = false
+
+		ape.MaxForce = inf
+
+		ape.MaxVelocity = inf
+
+		ape.ReactionForceEnabled = false
+
+		ape.Responsiveness = 200
+
+		ape.Attachment1 = att1
+
+		ape.Attachment0 = att0
+
+		ape.Name = "AlignPositionRtrue"
+
+		ape.RigidityEnabled = true
+
+	end
+
+	if (alignmode == 2) or (alignmode == 3) then
+
+		local apd = Instance.new("AlignPosition", att0)
+
+		apd.ApplyAtCenterOfMass = false
+
+		apd.MaxForce = inf
+
+		apd.MaxVelocity = inf
+
+		apd.ReactionForceEnabled = false
+
+		apd.Responsiveness = 200
+
+		apd.Attachment1 = att1
+
+		apd.Attachment0 = att0
+
+		apd.Name = "AlignPositionRfalse"
+
+		apd.RigidityEnabled = false
+
+	end
+
+	local ao = Instance.new("AlignOrientation", att0)
+
+	ao.MaxAngularVelocity = inf
+
+	ao.MaxTorque = inf
+
+	ao.PrimaryAxisOnly = false
+
+	ao.ReactionTorqueEnabled = false
+
+	ao.Responsiveness = 200
+
+	ao.Attachment1 = att1
+
+	ao.Attachment0 = att0
+
+	ao.RigidityEnabled = false
+
+	if getNetlessVelocity then
+
+	    local vel = Part0.Velocity
+
+	    local velpart = Part1
+
+        local rsteppedcon = renderstepped:Connect(function()
+
+            Part0.Velocity = vel
+
+        end)
+
+        local heartbeatcon = heartbeat:Connect(function()
+
+            vel = Part0.Velocity
+
+            Part0.Velocity = getNetlessVelocity(velpart.Velocity)
+
+        end)
+
+        local attcon = nil
+
+        Part0:GetPropertyChangedSignal("Parent"):Connect(function()
+
+            if not (Part0 and Part0.Parent) then
+
+                rsteppedcon:Disconnect()
+
+                heartbeatcon:Disconnect()
+
+                attcon:Disconnect()
+
+            end
+
+        end)
+
+        attcon = att1:GetPropertyChangedSignal("Parent"):Connect(function()
+
+	        if not (att1 and att1.Parent) then
+
+	            attcon:Disconnect()
+
+                velpart = Part0
+
+	        else
+
+	            velpart = att1.Parent
+
+	            if not velpart:IsA("BasePart") then
+
+	                velpart = Part0
+
+	            end
+
+	        end
+
+	    end)
+
+	end
+
+	
+
+	att0.Parent = Part0
+
+    att1.Parent = Part1
+
+end
+
+local function respawnrequest()
+
+	local ccfr = ws.CurrentCamera.CFrame
+
+	local c = lp.Character
+
+	lp.Character = nil
+
+	lp.Character = c
+
+	local con = nil
+
+	con = ws.CurrentCamera.Changed:Connect(function(prop)
+
+	    if (prop ~= "Parent") and (prop ~= "CFrame") then
+
+	        return
+
+	    end
+
+	    ws.CurrentCamera.CFrame = ccfr
+
+	    con:Disconnect()
+
+    end)
+
+end
+
+local destroyhum = (method == 4) or (method == 5)
+
+local breakjoints = (method == 0) or (method == 4)
+
+local antirespawn = (method == 0) or (method == 2) or (method == 3)
+
+hatcollide = hatcollide and (method == 0)
+
+addtools = addtools and gp(lp, "Backpack", "Backpack")
+
+local fenv = getfenv()
+
+local shp = fenv.sethiddenproperty or fenv.set_hidden_property or fenv.set_hidden_prop or fenv.sethiddenprop
+
+local ssr = fenv.setsimulationradius or fenv.set_simulation_radius or fenv.set_sim_radius or fenv.setsimradius or fenv.set_simulation_rad or fenv.setsimulationrad
+
+if shp and (simradius == "shp") then
+
+	spawn(function()
+
+		while c and heartbeat:Wait() do
+
+			shp(lp, "SimulationRadius", inf)
+
+		end
+
+	end)
+
+elseif ssr and (simradius == "ssr") then
+
+	spawn(function()
+
+		while c and heartbeat:Wait() do
+
+			ssr(inf)
+
+		end
+
+	end)
+
+end
+
+antiragdoll = antiragdoll and function(v)
+
+	if v:IsA("HingeConstraint") or v:IsA("BallSocketConstraint") then
+
+		v.Parent = nil
+
+	end
+
+end
+
+if antiragdoll then
+
+	for i, v in pairs(c:GetDescendants()) do
+
+		antiragdoll(v)
+
+	end
+
+	c.DescendantAdded:Connect(antiragdoll)
+
+end
+
+if antirespawn then
+
+	respawnrequest()
+
+end
+
+if method == 0 then
+
+	wait(loadtime)
+
+	if not c then
+
+		return
+
+	end
+
+end
+
+if discharscripts then
+
+	for i, v in pairs(c:GetChildren()) do
+
+		if v:IsA("LocalScript") then
+
+			v.Disabled = true
+
+		end
+
+	end
+
+elseif newanimate then
+
+	local animate = gp(c, "Animate", "LocalScript")
+
+	if animate and (not animate.Disabled) then
+
+		animate.Disabled = true
+
+	else
+
+		newanimate = false
+
+	end
+
+end
+
+if addtools then
+
+	for i, v in pairs(addtools:GetChildren()) do
+
+		if v:IsA("Tool") then
+
+			v.Parent = c
+
+		end
+
+	end
+
+end
+
+pcall(function()
+
+	settings().Physics.AllowSleep = false
+
+	settings().Physics.PhysicsEnvironmentalThrottle = Enum.EnviromentalPhysicsThrottle.Disabled
+
+end)
+
+local OLDscripts = {}
+
+for i, v in pairs(c:GetDescendants()) do
+
+	if v.ClassName == "Script" then
+
+		table.insert(OLDscripts, v)
+
+	end
+
+end
+
+local scriptNames = {}
+
+for i, v in pairs(c:GetDescendants()) do
+
+	if v:IsA("BasePart") then
+
+		local newName = tostring(i)
+
+		local exists = true
+
+		while exists do
+
+			exists = false
+
+			for i, v in pairs(OLDscripts) do
+
+				if v.Name == newName then
+
+					exists = true
+
+				end
+
+			end
+
+			if exists then
+
+				newName = newName .. "_"    
+
+			end
+
+		end
+
+		table.insert(scriptNames, newName)
+
+		Instance.new("Script", v).Name = newName
+
+	end
+
+end
+
+c.Archivable = true
+
+local hum = c:FindFirstChildOfClass("Humanoid")
+
+if hum then
+
+	for i, v in pairs(hum:GetPlayingAnimationTracks()) do
+
+		v:Stop()
+
+	end
+
+end
+
+local cl = c:Clone()
+
+if hum and humState16 then
+
+    hum:ChangeState(Enum.HumanoidStateType.Physics)
+
+    if destroyhum then
+
+        wait(1.6)
+
+    end
+
+end
+
+if hum and hum.Parent and destroyhum then
+
+    hum:Destroy()
+
+end
+
+if not c then
+
+    return
+
+end
+
+local head = gp(c, "Head", "BasePart")
+
+local torso = gp(c, "Torso", "BasePart") or gp(c, "UpperTorso", "BasePart")
+
+local root = gp(c, "HumanoidRootPart"
